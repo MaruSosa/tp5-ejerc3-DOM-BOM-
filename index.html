@@ -40,10 +40,16 @@
     </header>
     <main>
       <section>
-        <div class="d-flex justify-content-center m-5 p-3">
-          <label class="">Ingrese una Tarea</label>
-          <input type="text" id="TareaNueva"/>
-          <button class="btn" type="button" id="btnGuardar">Guardar</button>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-12">
+              <div class="d-flex justify-content-center align-items-center flex-wrap m-5 p-3 gap-3">
+                <label class="me-3">Ingrese una Tarea</label>
+                <input type="text" id="TareaNueva" class="form-control me-3">
+                <button class="btn btn-primary" type="button" id="btnGuardar">Guardar</button>
+              </div>
+            </div>
+          </div>
         </div>
         <h1 class="d-flex justify-content-center m-5 p-3">Listado de Tareas</h1>
         <div class="table-responsive px-3 mx-3">

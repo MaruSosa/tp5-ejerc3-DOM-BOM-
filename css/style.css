@@ -17,6 +17,7 @@ footer{
 }
 #btnGuardar{
     background-color:rgb(244, 183, 70);
+    color: black;
 }
 label{
     font-size: 20px;
@@ -35,7 +36,9 @@ th {
     text-align: left;
     border: 1px solid #ccc;
   }
-  tbody td{
-    padding: 10px;
-    margin-right: 10px;
-  }
+.btn-editar{
+    background-color:rgb(244, 183, 70);
+}
+.btn-eliminar{
+    background-color:rgb(244, 183, 70);
+}

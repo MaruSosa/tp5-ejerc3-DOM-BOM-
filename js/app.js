@@ -31,6 +31,7 @@ function guardarTarea() {
       const tdAccionesBotones = document.createElement("td");
 
       const btnEditar = document.createElement('button');
+      btnEditar.className = 'btn btn-editar m-3';
       btnEditar.textContent = 'Editar';
       btnEditar.addEventListener('click', () => {
         const fila = btnEditar.parentElement.parentElement;
@@ -49,6 +50,7 @@ function guardarTarea() {
       });
 
       const btnEliminar = document.createElement("button");
+      btnEliminar.className = 'btn btn-eliminar m-3';
       btnEliminar.textContent = "Eliminar";
       btnEliminar.addEventListener("click", function() {
         this.parentElement.parentElement.remove();
