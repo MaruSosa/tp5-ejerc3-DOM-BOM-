@@ -6,3 +6,36 @@ body{
 main{
     flex-grow: 1;
 }
+.navbar{
+    background-color:rgb(244, 183, 70);
+    font-size: 20px;
+
+}
+footer{
+    background-color:rgb(244, 183, 70);
+    font-size: 20px;
+}
+#btnGuardar{
+    background-color:rgb(244, 183, 70);
+}
+label{
+    font-size: 20px;
+}
+th {
+    padding: 10px; 
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%; 
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  tbody td{
+    padding: 10px;
+    margin-right: 10px;
+  }

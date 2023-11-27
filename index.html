@@ -17,16 +17,36 @@
   </head>
   <body>
     <header>
-      <h1 class="d-flex justify-content-center m-5 p-3">Listado de Tareas</h1>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Agenda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#TareaNueva">Nueva tarea</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#listado">Listado de Tareas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
       <section>
-        <div class="d-flex justify-content-center m-5 p-3 gap-3 d-inline-block">
+        <div class="d-flex justify-content-center m-5 p-3">
           <label class="">Ingrese una Tarea</label>
           <input type="text" id="TareaNueva"/>
           <button class="btn" type="button" id="btnGuardar">Guardar</button>
         </div>
-        <div class="table-responsive px-5 mx-5">
+        <h1 class="d-flex justify-content-center m-5 p-3">Listado de Tareas</h1>
+        <div class="table-responsive px-3 mx-3">
             <table id="listado">
               <thead>
                 <tr>
@@ -41,6 +61,7 @@
         </div>
       </section>
     </main>
+    <footer class="p-4 d-flex justify-content-center">Agenda de Tareas</footer>
     <script src="./js/app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
